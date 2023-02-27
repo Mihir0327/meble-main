@@ -4,6 +4,7 @@ import Script from 'next/script'
 import Blogs from './blogs'
 import Footer from './footer'
 import Card from './Card'
+import Services from './services'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function Home() {
 
 
       <main>
+      <Services />
       <Card />
       <Blogs />
       <Footer />
